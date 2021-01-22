@@ -1,0 +1,52 @@
+base {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-image: url(../Media/bg.png);
+    z-index: -100;
+}
+
+body {
+    background-color: black;
+}
+
+header h1 {
+    margin-top: .6em;
+    text-align: center;
+}
+
+#LoginPanel {
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#LoginForm {
+    background-color: rgba(0, 0, 0, .4);
+    padding: 3em;
+    border-radius: 1em;
+}
+
+#LoginForm h2 {
+    font-size: 3em;
+}
+
+#LoginForm input {
+    padding: .5em;
+    width: 16.6em;
+    height: 1.4em;
+    margin-bottom: 1em;
+    border: 1px solid white;
+    border-radius: .1em;
+}
+
+#LoginForm button {
+    width: 16.6em;
+    height: 2.6em;
+    background-color: rgb(133, 200, 255);
+    border: none;
+    border-radius: .2em;
+    color: rgb(70, 70, 70);
+    text-shadow: 2px 1px 3px;
+}

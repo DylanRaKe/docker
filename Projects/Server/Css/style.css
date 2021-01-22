@@ -1,0 +1,44 @@
+body {
+    background-color: #15202B;
+}
+
+header h1 {
+    padding: 20px;
+    font-size: 55px;
+    font-weight: 800;
+    color: #DFDFDF;
+}
+
+#loginForm {
+    background-color: rgba(0, 0, 0, .10);
+    margin-left: auto;
+    margin-right: auto;
+    width: 85vw;
+    height: 80vh;
+    max-width: 734px;
+    max-height: 644px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: black 5px 4px 15px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+#loginForm h1 {
+    margin-top: 3.5em;
+}
+
+#loginForm input {
+    width: 80%;
+    height: 4%;
+    border-radius: .3em;
+    padding: .4em;
+}
+
+#loginForm button {
+    width: 50%;
+    height: 4%;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid white
+}

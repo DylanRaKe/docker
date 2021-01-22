@@ -1,0 +1,208 @@
+*{
+    overflow-x: hidden;
+    transition: 250ms;
+}
+
+header .cont{
+    max-width: 12em;
+}
+
+img{
+    width: 100%;
+    background: url('../Media/paros2.png') no-repeat center;
+    background-size: cover;
+}
+
+body{
+    background-color: #151515;
+}
+
+header{
+    height: 7rem;
+    width: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    width: 74vw;
+    text-align: center;
+}
+
+header a{
+    margin: 0 3.5em;
+    font: 300 20.6px Montserrat;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 3em;
+    height:10em;
+    background-color: #050505;
+    overflow-y: hidden;
+}
+
+footer .cont{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 1.6em;
+}
+
+footer .cont img{
+    width: 14em;
+}
+
+
+
+.containerSwip{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /*
+    width: 960px !important;
+    height: 540px !important;
+    */
+    width: 42.5vw !important;
+    height: 52.03125vh !important;
+    background-color: black;
+    min-width: 480px;
+    min-height: 270px;
+}
+
+
+
+
+
+
+
+.games{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    
+    background-color: #1A1A1A;
+}
+
+.games h1{
+    font: 800 36.2px Montserrat;
+    margin-top: 1em;
+}
+
+
+
+
+.about{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.about h1{
+    font: 800 36.2px Montserrat;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.about p{
+    font: 300 17.8px Montserrat;
+    line-height: 24.7px;
+}
+
+.contact{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.contact h1{
+    font: 800 36.2px Montserrat;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.contact p{
+    font: 300 17.8px Montserrat;
+    line-height: 24.7px;
+}
+
+.contact a{
+    color: #3AA3FF;
+    font-style: italic;
+}
+
+.ol{
+    transition: 350ms;
+}
+
+.hit:hover .ol{
+    opacity: 100%;
+}
+
+.ol{
+    opacity: 0;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    border-top: .2em solid white;
+}
+
+.ol h1{
+    font-weight: 700;
+    position: relative;
+    margin-top: .3em;
+    margin-left: 1em;
+    text-align: left;
+    font-size: 20px;
+}
+
+.ol p{
+    font-weight: 200;
+    font-size: 17px;
+    text-align: left;
+    margin: .2em 1em;
+}
+
+.ol button{
+    position: absolute;
+    right: .4em;
+    bottom: .4em;
+    font-weight: bold;
+    font-size: 34px;
+    width: 308px;
+    height: 54px;
+    border-radius: 2em;
+    border: .1rem solid white;
+}
+
+@media only screen and (max-width: 1200px){
+    header a{
+        margin: 0 1em;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    header{
+        display: none;
+    }
+
+    
+}
